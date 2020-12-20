@@ -97,12 +97,12 @@ input, select, textarea {
 		-ms-transition: none !important;
 		transition: none !important;
 	}
-
+	/* BODY TEXT AND MENU ITEMS */
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: #000000/*rgba(255, 255, 255, 0.75)*/;
 		font-family: "Poppins", "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
-		font-weight: 100;
+		font-weight: 200;
 		line-height: 1.75em;
 	}
 
@@ -133,9 +133,9 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
-
+	/* TEXT SETTINGS*/
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2153,9 +2153,9 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
-
+	/* HEADER PARAGRAPH HERO */
 	header p {
-		color: #ffffff;
+		color: #000000;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3473,7 +3473,8 @@ input, select, textarea {
 
 		#banner:after {
 			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/* HERO BACKGROUND */
+			background-image: -webkit-linear-gradient(top, /*rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)*/ #ffffff, #ffffff), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
