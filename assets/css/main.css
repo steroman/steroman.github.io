@@ -82,9 +82,9 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
+/* basic HTML body */
 	html, body {
-		background: #1c1d26;
+		background: #ffffff;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3368,14 +3368,14 @@ input, select, textarea {
 		margin-top: 0;
 	}
 
-/* Header */
+/* Header */ /*right sidebar page header background*/
 
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: #ffffff/*rgba(39, 40, 51, 0.965)*/;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
