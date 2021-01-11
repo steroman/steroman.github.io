@@ -741,6 +741,14 @@ input, select, textarea {
 			margin-left: 16.66667%;
 		}
 
+		.row > .col-2point5 {
+			width: 20%;
+		}
+
+		.row > .off-2point5 {
+			margin-left: 20%;
+		}
+
 		.row > .col-3 {
 			width: 25%;
 		}
@@ -765,13 +773,13 @@ input, select, textarea {
 			margin-left: 41.66667%;
 		}
 
-		.row > .col-6 {
-			width: 50%;
-		}
+			.row > .col-6 {
+				width: 50%;
+			}
 
-		.row > .off-6 {
-			margin-left: 50%;
-		}
+			.row > .off-6 {
+				margin-left: 50%;
+			}
 
 		.row > .col-7 {
 			width: 58.33333%;
@@ -779,6 +787,14 @@ input, select, textarea {
 
 		.row > .off-7 {
 			margin-left: 58.33333%;
+		}
+
+		.row > .col-7point5 {
+			width: 60%;
+		}
+
+		.row > .off-7point5 {
+			margin-left: 60%;
 		}
 
 		.row > .col-8 {
