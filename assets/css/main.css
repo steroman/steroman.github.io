@@ -298,7 +298,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -307,7 +307,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -327,7 +327,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -336,7 +336,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -356,7 +356,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -365,7 +365,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -385,7 +385,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -394,7 +394,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -603,7 +603,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #1c1d26;
+			background: #000000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2298,7 +2298,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #1c1d26;
+			background: #000000;
 		}
 
 		select:focus::-ms-value {
@@ -2500,7 +2500,7 @@ input, select, textarea {
 			}
 
 			.icon.alt:before {
-				color: #1c1d26 !important;
+				color: #000000 !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
@@ -3771,7 +3771,7 @@ input, select, textarea {
 				}
 
 				.spotlight .content {
-					background-color: #ffffff /*#1c1d26*/;
+					background-color: #ffffff /*#000000*/;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
